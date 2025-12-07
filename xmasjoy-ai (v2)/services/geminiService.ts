@@ -1,3 +1,7 @@
+onst API_BASE = import.meta.env.DEV
+  ? "/api"
+  : "https://xmasjoy-backend.onrender.com";
+
 // services/aiService.ts（檔名隨你，重點是內容）
 
 import { GiftIdea, TriviaQuestion, TruthOrDareItem, QuickFireItem } from "../types";
