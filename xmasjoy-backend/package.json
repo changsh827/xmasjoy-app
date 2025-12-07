@@ -1,0 +1,19 @@
+{
+  "name": "xmasjoy-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Xmas Joy AI app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.31.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
