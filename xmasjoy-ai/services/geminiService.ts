@@ -8,7 +8,7 @@ import { GiftIdea, TriviaQuestion, TruthOrDareItem, QuickFireItem } from "../typ
 
 // 通用呼叫後端 AI 的 helper
 async function callAI(prompt: string): Promise<string> {
-  const res = await fetch("/api/chat", {
+  const res = await fetch("https://xmasjoy-backend.onrender.com/api/chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
