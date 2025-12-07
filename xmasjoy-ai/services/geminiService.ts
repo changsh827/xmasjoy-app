@@ -1,4 +1,4 @@
-onst API_BASE = import.meta.env.DEV
+const API_BASE = import.meta.env.DEV
   ? "/api"
   : "https://xmasjoy-backend.onrender.com";
 
